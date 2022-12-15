@@ -1,6 +1,6 @@
-# Your Project Title 
+# Refactor Site 
 
-## Technology Used 
+## HTML | CSS | Git 
 
 | Technology Used         | Resource URL           | 
 | ------------- |:-------------:| 
