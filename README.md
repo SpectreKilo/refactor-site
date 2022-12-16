@@ -42,99 +42,17 @@ If your README is very long, add a table of contents to make it easy for users t
 * [License](#license)
 
 
-## Code Refactor Example
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-
-```html
-<div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-```
-
-Converting the above non-semantic div with the class of 'header' to an appropriate [<header> semantic element](https://www.w3schools.com/html/html5_semantic_elements.asp). 
-
-```html
-<header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-```
-
-This change require some additional modification to the CSS selector: 
-
-```css
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-```
-
-No longer targeting the element on the page with the class of 'header' but instead the css selector targeting the 'header' element 
-
-```css
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-```
-
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
-```
 
 
 ## Learning Points 
 
 
-This is a good place to Explain what you Learned by creating this application.
-This is a great way to remind about all of the Complex Skills you now have.
-If the user is less experienced than you:
-They will be impressed by what you can do!
+1. Learned the basic elements of HTML, CSS, and Git. 
+2. Learned to use semantic elements.
+3. Learned how to refactor code.
 
-If the user is more experienced than you:
-They will be impressed by what you can do!
-
-Remember, it is easy to forget exactly how Valuable and Impressive your skills are, as well as How Much You’ve Learned!
-So quantify that here!
 
 
 ## Author Info
