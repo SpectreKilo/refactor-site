@@ -139,14 +139,8 @@ So quantify that here!
 
 ## Author Info
 
-```md
-### John Ho 
-
-
-* [Portfolio](Coming Soon)
-* [LinkedIn](Coming Soon)
-* [Github](https://github.com/SpectreKilo/refactor-site)
-```
+John Ho
+UCB Coding Bootcamp Student
 
 
 ## Credits
